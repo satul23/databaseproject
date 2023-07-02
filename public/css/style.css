@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    margin: 0;
+}
+
+.main_menu{
+    background-color: #03032f;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.navbar li{
+    margin-left: 2rem;
+}
+
+.main_header_left{
+    
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text_clr{
+    color: #61619f;
+    
+}
+
+.main_header_left p{
+    font-size: 1.5rem;
+}
+
+.main_header_left h1{
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+
+}
+
+.main_header_right{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#para{
+    text-transform: capitalize;
+}
+
+.tempinformation{
+    width: 25rem;
+    margin: auto;
+    min-height: 10rem;
+    background-color: #03032f;
+    border-radius: 1rem;
+    padding: 1rem;
+    /* margin-bottom: 20rem; */
+
+}
+
+.top_layer{
+    width: 100%;
+    height: 1rem;
+    /* background-color: #61619f; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+
+.top_layer #day{
+    color: #fff;
+}
+
+.top_layer #today_date{
+    color: #fff;
+}
+
+.main_layer .middle_layer {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main_layer .middle_layer p {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+
+.main_layer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_layer #city_name{
+   padding: 2rem 0;
+   color: #fff;
+   font-weight: 300;
+   font-size: 1.5rem; 
+}
+
+.temp_form{
+    width: 30%;
+    position: relative;
+    margin: 3rem auto;
+}
+
+.temp_form input [type="search"] {
+    width: 500%;
+    padding: 2rem 5rem 2rem 2rem;
+    border-radius: 3rem;
+}
+
+.data_hide {
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+ footer{
+    margin-top: auto;
+    /* margin: 100%; */
+    background-color: #03032f;
+} 
+
+footer p{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    /* margin-top: 1rem; */
+    line-height: 2rem;
+    font-size: 0.9rem;
+} 
